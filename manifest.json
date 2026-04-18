@@ -1,20 +1,38 @@
 {
   "name": "Sonic Delivery",
   "short_name": "Sonic",
-  "start_url": "./index.html",
+  "description": "Fast and premium meal delivery service app.",
+  "start_url": "/sonic-delivery/index.html",
+  "scope": "/sonic-delivery/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#2563eb",
+  "background_color": "#F5F5F7",
+  "theme_color": "#34C759",
   "icons": [
     {
       "src": "logo.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
       "src": "logo.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "splash_delivery_icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "splash_delivery_icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "form_factor": "narrow"
     }
   ]
 }
