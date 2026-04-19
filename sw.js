@@ -1,12 +1,17 @@
-const CACHE_NAME = 'sonic-delivery-v3';
+const CACHE_NAME = 'sonic-delivery-v4';
 const urlsToCache = [
-    '/sonic-delivery/',
-    '/sonic-delivery/index.html',
-    '/sonic-delivery/order.html',
-    '/sonic-delivery/style.css',
-    '/sonic-delivery/script.js',
-    '/sonic-delivery/order.js',
-    '/sonic-delivery/manifest.json'
+    '/',
+    '/index.html',
+    '/order.html',
+    '/style.css',
+    '/script.js',
+    '/order.js',
+    '/logo.png',
+    '/splash_delivery_icon.png',
+    '/icon-192.png',
+    '/icon-512.png',
+    '/screenshot-wide.png',
+    '/screenshot-narrow.png'
 ];
 
 self.addEventListener('install', event => {

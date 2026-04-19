@@ -12,7 +12,7 @@
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/sonic-delivery/sw.js', { scope: '/sonic-delivery/' });
+          navigator.serviceWorker.register('/sw.js', { scope: '/' });
         });
       }
     </script>
